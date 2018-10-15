@@ -1,24 +1,16 @@
 import React, { Component } from 'react';
-import './App.css';
+import Header from './components/Header'
+import { CssBaseline } from '@material-ui/core';
+import AppDrawer from './components/LeftDrawer'
 class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <p>
-            
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+  
+  render(){
+    return (<div>
+      <CssBaseline/>
+      <div><Header></Header>
       </div>
-    );
+      <AppDrawer></AppDrawer>
+    </div>);
   }
 }
 
