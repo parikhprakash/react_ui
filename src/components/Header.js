@@ -7,7 +7,7 @@ const Header = (props) =>{
     return (<div style={styleNme}>
         <AppBar position='relative' >
             <Toolbar>
-                <Typography variant='headline' color="inherit" flexGrow={1} >
+                <Typography variant='headline' color="inherit" flexgrow={1} >
                     Train your Corpus
                 </Typography>
             </Toolbar>
@@ -17,6 +17,6 @@ const Header = (props) =>{
 }
 const styleNme =
         {
-           'margin-left':'150px'
+           'marginLeft':'150px'
         }   
 export default Header;
